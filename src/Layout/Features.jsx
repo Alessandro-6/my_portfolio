@@ -1,3 +1,5 @@
+import Tecnology from "../components/Tecnology";
+
 function Features() {
   return (
     <section
@@ -6,127 +8,43 @@ function Features() {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-12">
-            <h2 className="mb-4">Experiences</h2>
+          <div className="col-lg-6 col-12 d-grid gap-1 ">
+            <h2 className="mb-4">Tecnologias</h2>
+            <div className="tecnologies">
+              <Tecnology
+                tecnology="Reactjs"
+                experience="Avançado"
+                img="react"
+              />
 
-            <div className="timeline">
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2023</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Desenvolvedor Autônomo</span>
-                  </h3>
-                  <p>Desenvolvi vários websites de forma autônoma</p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2018</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>UX Designer</span>
-                    <small>Digital Ace</small>
-                  </h3>
-                  <p>
-                    Fusce rutrum augue id orci rhoncus molestie. Nunc auctor
-                    dignissim lacus vel iaculis.
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2016</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>UI Freelancer</span>{" "}
-                  </h3>
-                  <p>
-                    Sed fringilla vitae enim sit amet cursus. Sed cursus dictum
-                    tortor quis pharetra. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas.
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2014</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Junior Designer</span>
-                    <small>Crafted Co.</small>
-                  </h3>
-                  <p>
-                    Cras scelerisque scelerisque condimentum. Nullam at volutpat
-                    mi. Nunc auctor ipsum eget magna consequat viverra.
-                  </p>
-                </div>
-              </div>
+              <Tecnology tecnology="Redux" experience="Avançado" img="redux" />
+              <Tecnology tecnology="Vuejs" experience="Médio" img="vuejs" />
+              <Tecnology tecnology="Sass" experience="Avançado" img="sass" />
+              <Tecnology tecnology="git" experience="Médio" img="git" />
+              <Tecnology tecnology="gitHub" experience="Médio" img="github" />
             </div>
           </div>
 
           <div className="col-lg-6 col-12">
-            <h2 className="mb-4 mobile-mt-2">Educations</h2>
-
-            <div className="timeline">
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2017</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Mobile Web</span>
-                    <small>Master Design</small>
-                  </h3>
-                  <p>
-                    Please tell your friends about Tooplate website. That would
-                    be very helpful. We need your support.
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2015</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>User Interfaces</span>
-                    <small>Creative Agency</small>
-                  </h3>
-                  <p>
-                    <a rel="nofollow" href="https://www.facebook.com/tooplate">
-                      Tooplate
-                    </a>{" "}
-                    is a great website to download HTML templates without any
-                    login or email.
-                  </p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2013</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Artwork Design</span>
-                    <small>New Art School</small>
-                  </h3>
-                  <p>
-                    You can freely use Tooplate&apos;s templates for your
-                    business or personal sites. You cannot redistribute this
-                    template without a permission.
-                  </p>
-                </div>
-              </div>
+            <div className="tecnologies">
+              <Tecnology tecnology="HTML5" experience="Avançado" img="html5" />
+              <Tecnology tecnology="CSS3" experience="Avançado" img="css3" />
+              <Tecnology
+                tecnology="JavaScript(ES6)"
+                experience="Avançado"
+                img="javascript"
+              />
+              <Tecnology
+                tecnology="TailwindCSS"
+                experience="Médio"
+                img="tailwindcss"
+              />
+              <Tecnology
+                tecnology="Bootstrap"
+                experience="Médio"
+                img="bootstrap"
+              />
+              <Tecnology tecnology="Java" experience="Iniciante" img="java" />
             </div>
           </div>
         </div>

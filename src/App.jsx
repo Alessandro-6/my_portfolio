@@ -4,6 +4,7 @@ import About from "./Layout/About";
 import Projects from "./Layout/Projects";
 import Contact from "./Layout/Contact";
 import Footer from "./Layout/Footer";
+import Features from "./Layout/Features";
 
 function App() {
   const [toggleColorTheme, setToggleColorTheme] = useState(false);
@@ -24,6 +25,7 @@ function App() {
       />
       <About />
       <Projects />
+      <Features />
       <Contact />
       <Footer />
     </>

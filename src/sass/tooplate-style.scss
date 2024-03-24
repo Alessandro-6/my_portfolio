@@ -414,11 +414,18 @@ strong {
     }
   }
 }
+// TECNOLOGIES
+.tecnologies {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.75rem;
+}
 
 // TIMELINE
 .timeline-wrapper {
   position: relative;
   padding-bottom: 10px;
+
   &:last-child {
     &:before {
       height: 0;
@@ -426,7 +433,6 @@ strong {
   }
   &:before {
     content: "";
-    background: $button-color;
     width: 3px;
     height: 100%;
     position: absolute;
@@ -435,7 +441,6 @@ strong {
 }
 
 .timeline-yr {
-  background: $button-color;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -662,7 +667,14 @@ strong {
     display: block;
     margin: 10px 0;
   }
+  .light-btn-group {
+    text-align: center;
+  }
 
+  .light-btn {
+    display: block;
+    margin: 10px 0;
+  }
   .owl-theme .owl-nav {
     display: none;
   }

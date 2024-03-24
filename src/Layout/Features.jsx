@@ -4,7 +4,7 @@ function Features() {
   return (
     <section
       className="resume py-5 d-lg-flex justify-content-center align-items-center"
-      id="resume"
+      id="tecnologies"
     >
       <div className="container">
         <div className="row">

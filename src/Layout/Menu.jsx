@@ -62,6 +62,11 @@ function Menu({ toggleColorTheme, setToggleColorTheme }) {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-item">
+              <Nav.Link href="#tecnologies" className="nav-link">
+                <span data-hover="Tecnologias">Tecnologias</span>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="nav-item">
               <Nav.Link
                 href="https://drive.google.com/file/d/1hYJPPbShHdbtxlfT6K-wDcWyTnR-JMcB/view?usp=sharing"
                 className="nav-link"

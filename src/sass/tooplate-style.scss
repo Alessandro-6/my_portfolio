@@ -32,6 +32,10 @@ body {
   padding-top: 70px;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .full-screen {
   padding: 8rem 0;
 }
